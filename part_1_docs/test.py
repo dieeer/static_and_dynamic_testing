@@ -11,7 +11,7 @@ class CardGame:
 # def is misspelt, there is no comma between card1 and card2
   dif highest_card(self, card1 card2):
   if card1.value > card2.value:
-    #   card is not declared as an argument, only card1 and card2 are
+    #   card is not declared as an argument, only card1 and card2 are declared albeit improperly
     return card
   else:
     return card2
